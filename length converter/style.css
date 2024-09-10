@@ -2,8 +2,8 @@ html,
 body{
    margin: 0;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   background-color:#f5e8ba;
-
+   background-image: linear-gradient(to right, rgb(14, 1, 1),rgb(210, 196, 196));
+   display: stretch;
 }
 
 #wrapper div,#wrapper h2{
@@ -20,12 +20,12 @@ input{
     border-radius: 8px;
     border: 2px solid black ;
     margin-top:30px;
-    height:2em;
-    width:250px;
+    height:3em;
+    width:300px;
     padding-left:10px;
 }
 
-input:active{
+input:focus{
     background-color: #ffeba7;
     border:none;
 }
